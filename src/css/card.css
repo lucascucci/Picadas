@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Pacifico&display=swap');
+
+
+.itemContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+    width: auto;
+    color: rgb(8, 0, 0);
+    background: rgb(50, 171, 161);
+    background: linear-gradient(90deg, rgba(50, 171, 161, 0.850474296163778) 1%, rgba(175, 191, 232, 0.9513146322982318) 32%, rgba(148, 187, 233, 1) 100%);
+    text-align: center;
+}
+
+.img {
+    height: 400px;
+    width: auto;
+    border-radius: 16px;
+}
+
+.texto {
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.textot {
+    font-family: 'Foldit', cursive;
+    font-family: 'Mogra', cursive;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Foldit', cursive;
+    font-family: 'Mogra', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.precio {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}

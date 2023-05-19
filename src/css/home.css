@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@200;600&family=Mogra&display=swap');
+
+
+.header {
+    text-align: center;
+    background-image: url('https://trending-media.com/wp-content/uploads/2020/04/desarmadero.jpg');
+    height: 800px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    padding-top: 300px;
+}
+
+span {
+    font-size: 37px;
+    font-family: 'Foldit', cursive;
+    font-family: 'Mogra', cursive;
+    color: rgb(234, 234, 228);
+}
+
+.ipoint {
+    font-size: 32px;
+    color: aliceblue;
+    font-family: 'Foldit', cursive;
+    font-family: 'Mogra', cursive;
+}
+

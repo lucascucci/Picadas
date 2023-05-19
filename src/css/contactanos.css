@@ -1,0 +1,53 @@
+
+.contacto {
+    text-align: center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+}
+.ubi{
+    height: 80px;
+    width: auto;
+}
+.contacto h1 {
+    font-family: 'Foldit', cursive;
+    font-family: 'Mogra', cursive;    
+    font-size: 30px;
+}
+.contacto h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+
+/*Comienzo querys desde el movil mas pequeño en adelante */
+
+@media only screen and (min-width: 375px) and (max-width: 667px){
+
+    .contacto {
+        text-align: center;
+        height: 440px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: rgb(34,193,195);
+        background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 896px){
+
+    .contacto {
+        text-align: center;
+        height: 651px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: rgb(34,193,195);
+        background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    }
+}

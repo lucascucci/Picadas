@@ -1,0 +1,45 @@
+
+.contenedorOri {
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    height: 800px;
+    text-align: center;
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.titulo {
+    font-size: 30px;
+    font-family: 'Foldit', cursive;
+    font-family: 'Mogra', cursive;
+}
+
+.imagen{
+    width: auto;
+    height: 350px;
+    border-radius: 20px;
+}
+
+
+.vaciar {
+    text-align:center;
+    background-color: antiquewhite;
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.carriVacio {
+    text-align: center;
+    height: 680px;
+}
+
+.value {
+    font-size: 30px;
+    font-family: 'Julee', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

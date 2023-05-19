@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@200;600&family=Mogra&display=swap');
+
+
+
+
+.detailContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    height: 670px;
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+
+.img1{
+    width: auto;
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+
+
+.envio {
+    
+    font-size: 30px;
+    height: 700px;
+    text-align: center;
+    padding: 70px;
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: rgba(18, 15, 6, 0.874);
+    font-family: 'Pacifico', cursive;    
+    font-size: 18px;
+    border-radius: 5px;
+    color: rgb(206, 255, 30);
+}
+
+button{
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+button:hover{
+    box-shadow: 0 8px 8px 0 #bebbbc,0 8px 8px 0 #adadab;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}
+
+
