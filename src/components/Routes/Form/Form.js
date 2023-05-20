@@ -7,20 +7,20 @@ import { useState } from 'react';
 
 
 const Form = () => {
+    const [ , setId] = useState();
 
-    const [id, setId] = useState()
     const [form, setForm] = useState({
         name: '',
         email: '',
         message: '',
     });
-
+    
     const { cart, precioTotal, vaciarCarrito } = useCartContext();
 
     const enviarDatos = (e) => {
         e.preventDefault()
         if (form.name === '' && form.email === '') {
-            alert("Completar datos requeridos")
+            alert("Completar datos requeridos para continuar la compra")
         } else {
             const db = getFirestore();
             const userCollection = collection(db, 'compra')

@@ -11,7 +11,7 @@ const CarrMap = ({ sacarProductos, eliminarIndividual, vaciarCarrito, precioTota
                     <div className="contenedorOri" key={indice}>
                         <div>
                             <h1 className="titulo"> {data.titulo}</h1>
-                            <p>{data.detalle}</p>
+                            <p className='detalle'>{data.detalle}</p>
                             <img className='imagen' src={data.imagen} alt="trago" />
                             <br></br>
 

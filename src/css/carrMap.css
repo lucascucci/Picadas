@@ -1,3 +1,5 @@
+
+
 .contenedorOri {
     display: flex;
     justify-content: space-evenly;
@@ -14,10 +16,15 @@
     font-family: 'Mogra', cursive;
 }
 
+.detalle {
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
 .imagen {
     width: auto;
     height: 350px;
-    border-radius: 20px;
+    border-style: inset;
 }
 
 
@@ -33,9 +40,9 @@
 }
 
 .value {
-    font-size: 30px;
-    font-family: 'Julee', cursive;
-}
+    font-size: 24px;
+    font-family: 'Foldit', cursive;
+    font-family: 'Mogra', cursive;}
 
 h2 {
     font-size: 30px;

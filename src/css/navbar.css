@@ -37,3 +37,21 @@ a {
     font-family: 'Foldit', cursive;
     font-family: 'Mogra', cursive;
 }
+
+@media only screen and (min-width: 375px) and (max-width: 667px){
+
+    ul.barra {
+        padding: 0px;
+        padding-top: 5px;
+    }
+    li {
+        font-size: 14px;
+    }
+    
+    .barra {
+        
+        height: 40px;  
+    }
+
+    
+}

@@ -30,12 +30,17 @@
 
     .contacto {
         text-align: center;
-        height: 440px;
+        height: 400px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         background: rgb(34,193,195);
         background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    }
+    .contacto h1 {
+        font-family: 'Foldit', cursive;
+        font-family: 'Mogra', cursive;    
+        font-size: 16px;
     }
 }
 
