@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const Card = ({data})=> {
 
     return (
+        
         <div className='itemContainer'>
             <h1> {data.titulo}</h1>
             <h3 className='textot'>Ingredientes de la picada</h3>
