@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
 
 .itemContainer {
     display: flex;
@@ -44,8 +44,8 @@ h1 {
 }
 
 .precio {
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Pacifico', cursive;
+
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 
@@ -56,3 +56,4 @@ h1 {
     align-items: center;
     text-align: center;
 }
+

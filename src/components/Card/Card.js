@@ -11,8 +11,8 @@ const Card = ({data})=> {
             <h3 className=' texto'>{data.detalle}</h3>
             <img className="img" src={data.imagen} alt="trago"/>
             <h4 className='precio'>Precio: {data.precio}$</h4>
-                <div className=' botones'>
-                    <Link to={`/item/${data.id}`}><button>Ver más</button></Link>
+                <div className=''>
+                    <Link to={`/item/${data.id}`}><button className='boton'>Ver más</button></Link>
                     <Link to={`/`}><button>Ir al Inicio</button></Link>
                 </div>
                 <br></br>

@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@200;600&family=Mogra&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
 
 
 
@@ -9,7 +9,8 @@
     justify-content: space-evenly;
     flex-direction: column;
     text-align: center;
-    height: 670px;
+    height: 760px;
+    font-family: 'Hind Siliguri', sans-serif;
     background: rgb(34,193,195);
     background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }

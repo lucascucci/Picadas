@@ -7,7 +7,7 @@ const Home = () => {
         <div className='header'>
             <header>
                 <span>
-                    Picadas TATO
+                    "Picadas TATO"
                 </span>
                 <div className='ipoint'>
                     Las mejores picadas para llevar !
