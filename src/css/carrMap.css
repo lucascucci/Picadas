@@ -1,12 +1,11 @@
-
 .contenedorOri {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     flex-direction: column;
     height: 700px;
     text-align: center;
-    background: rgb(34,193,195);
-    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: rgb(34, 193, 195);
+    background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
 }
 
 .titulo {
@@ -15,7 +14,7 @@
     font-family: 'Mogra', cursive;
 }
 
-.imagen{
+.imagen {
     width: auto;
     height: 350px;
     border-radius: 20px;
@@ -23,10 +22,9 @@
 
 
 .vaciar {
-    text-align:center;
-    background-color: antiquewhite;
-    background: rgb(34,193,195);
-    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    text-align: center;
+    background: rgb(137,219,228);
+    background: radial-gradient(circle, rgba(137,219,228,1) 2%, rgba(255,196,0,1) 98%);
 }
 
 .carriVacio {
