@@ -25,7 +25,6 @@ const {
                         <div>
                         <img className="imaVacio" src={Vacio} alt={Vacio}/>
                         </div>
-                    <br></br>
                     <Link to={`/`}><button className="">Volver al inicio</button></Link>
                 </div>
                 :
