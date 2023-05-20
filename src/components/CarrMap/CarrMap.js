@@ -10,13 +10,14 @@ const CarrMap = ({sacarProductos, eliminarIndividual,vaciarCarrito,precioTotal,c
                         cart.map ((data,indice)=>
                         <div  className="contenedorOri" key={indice}>
                             <div>
-                                <h1 className="titulo"> Nombre: {data.titulo}</h1>
+                                <h1 className="titulo"> {data.titulo}</h1>
+                                <p>{data.detalle}</p>
                                 <img className='imagen' src={data.imagen} alt="trago"/>
                                 <br></br>
+                                
                                 <span className="value">Valor $ :{data.precio}</span>
                                 <br></br>
                                 <h3>Cantidad: {data.cantidad}</h3>
-                                <h1>Tragos en Carrito</h1>
                                 <div >
                                     <button className="" disable={data.cantidad <= 0 && sacarProductos(data.id)} onClick={()=> eliminarIndividual (data.id)}>Eliminar Individual</button>
                                 </div>
