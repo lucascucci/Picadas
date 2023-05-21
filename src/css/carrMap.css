@@ -48,3 +48,27 @@ h2 {
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+@media only screen and (min-width: 375px) and (max-width: 667px){
+
+    
+.contenedorOri {
+    
+    height: 650px;
+
+}
+.titulo {
+    font-size: 25px;
+    
+}
+.detalle {
+    
+    font-size: 16px;
+}
+.imagen {
+    width: auto;
+    height: 250px;
+    border-style: inset;
+}
+
+}

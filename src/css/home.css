@@ -29,8 +29,23 @@ span {
 @media only screen and (min-width: 375px) and (max-width: 667px){
 
     span {
-        font-size: 27px;
+        font-size: 25px;
         
+    }
+
+    .ipoint {
+        font-size: 21px;
+        
+    }
+
+    .header {
+        text-align: center;
+        background-image: url('https://trending-media.com/wp-content/uploads/2020/04/desarmadero.jpg');
+        height: 650px;
+        width: auto;
+        background-size:cover;
+        background-repeat: no-repeat;
+        padding-top: 200px;
     }
 }
 

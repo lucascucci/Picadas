@@ -37,3 +37,24 @@ button:hover{
 }
 
 
+@media only screen and (min-width: 375px) and (max-width: 667px){
+
+
+    .envio {
+    
+        font-size: 24px;
+        height: 700px;
+        text-align: center;
+        padding: 50px;
+        
+        
+    }
+
+    button {
+        background-color: rgba(18, 15, 6, 0.874);
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 14px;
+
+    }
+    
+}

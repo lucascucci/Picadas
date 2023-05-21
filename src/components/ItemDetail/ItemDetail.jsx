@@ -20,7 +20,7 @@ const ItemDetail = ({ data }) => {
                 <span className="tituloDetalle">{data.titulo}</span>
                 <h1>Precio: {data.precio}$</h1>
                 <img className="img1" src={data.imagen} alt="trago" />
-                <h5>{data.detalle}</h5>
+                <h5 className="detail">{data.detalle}</h5>
             </div>
             <br></br>
             <div>
