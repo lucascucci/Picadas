@@ -55,3 +55,18 @@ a {
 
     
 }
+
+@media only screen and (min-width: 280px) and (max-width: 374px){
+
+    .barra {
+
+        height: 60px;
+        width:auto;
+
+    }
+    li {
+        font-size: 12px;
+        
+    }
+
+}
