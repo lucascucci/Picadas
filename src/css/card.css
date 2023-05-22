@@ -62,14 +62,8 @@ h1 {
 @media only screen and (min-width: 375px) and (max-width: 667px){
 
     .itemContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
         height: 700px;
         width: auto;
-        
-        
     }
     .img {
         height: 200px;
@@ -77,57 +71,41 @@ h1 {
         border-radius: 16px;
     }
     .texto {
-        text-align: center;
-        font-size: 18px;
-        text-align: center;
-        font-family: 'Josefin Sans', sans-serif;
-        
     
+        font-size: 18px;
     }
     .textot {
         font-size: 18px;
     }
-
     h1 {
         font-size: 22px;
     }
-
 }
 
 @media only screen and (min-width: 280px) and (max-width: 374px){
 
     h1 {
-        font-family: 'Foldit', cursive;
-        font-family: 'Mogra', cursive;
-        text-align: center;
         font-size: 15px;
     }
     .itemContainer {
         
         height: 700px;
         width:auto;
-
-        
     }
 
     .img {
-        height: 100px;
+        height: 200px;
         width: auto;
         border-radius: 16px;
     }
     .texto {
-        text-align: center;
         font-size: 18px;
-        text-align: center;
-        font-family: 'Josefin Sans', sans-serif;
-        
-    
     }
+
+
     .textot {
         font-size: 15px;
     }
-
-    
     
     }
 

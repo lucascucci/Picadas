@@ -19,7 +19,7 @@ const {
         <>
             {
                 cart.length === 0 ?
-                //div de carrito vacio
+                
                 <div className="carriVacio">
                     <span>El carrito esta vacio</span>
                         <div>
