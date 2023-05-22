@@ -37,7 +37,31 @@
 }
 
 .value {
-    font-size: 32px;
+    font-size: 25px;
     font-family: 'Julee', cursive;
 }
 
+
+
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 374px){
+
+    .titulo {
+        font-size: 22px;
+        
+    }
+    span {
+        font-size: 16px;
+    }
+
+    .imaVacio {
+        height: 100px;
+        width: auto;
+    }
+    
+    
+
+
+}

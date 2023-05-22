@@ -72,3 +72,26 @@ h2 {
 }
 
 }
+
+
+@media only screen and (min-width: 280px) and (max-width: 374px){
+
+    .contenedorOri {
+    
+        height: 550px;
+    
+    }
+    .titulo {
+        font-size: 16px;
+        
+    }
+    .detalle {
+        
+        font-size: 12px;
+    }
+    .imagen {
+        width: auto;
+        height: 200px;
+        border-style: inset;
+    }
+}

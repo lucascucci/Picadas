@@ -46,3 +46,29 @@
     }
 
 }
+
+
+@media only screen and (min-width: 280px) and (max-width: 374px){
+
+    .detailContainer {
+        
+        height: 710px;
+    }
+
+    .img1{
+        width: auto;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .detail {
+        font-size: 14px;
+        padding: 2px;
+    }
+    .tituloDetalle {
+        font-size: 12px;
+    }
+    
+
+
+}

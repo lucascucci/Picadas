@@ -44,15 +44,25 @@
     }
 }
 
-@media only screen and (min-width: 414px) and (max-width: 896px){
+
+@media only screen and (min-width: 280px) and (max-width: 374px){
 
     .contacto {
-        text-align: center;
-        height: 651px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        background: rgb(34,193,195);
-        background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+        
+        height: 650px;
+        
+
     }
+    .contacto h1 {   
+        font-size: 14px;
+    }
+    
+    .contacto h2 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+    }
+    
+
+
+
 }

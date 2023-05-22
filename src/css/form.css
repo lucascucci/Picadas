@@ -39,3 +39,14 @@ label {
 
 
 }
+
+@media only screen and (min-width: 280px) and (max-width: 374px){
+
+    h4 {
+        font-size: 18px;
+        
+    }
+    label {
+        font-size: 18px;
+    }
+}
