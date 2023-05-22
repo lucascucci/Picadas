@@ -48,6 +48,9 @@
 
 @media only screen and (min-width: 280px) and (max-width: 374px){
 
+
+
+
     .titulo {
         font-size: 22px;
         
@@ -57,7 +60,7 @@
     }
 
     .imaVacio {
-        height: 100px;
+        height: 150px;
         width: auto;
     }
     

@@ -57,10 +57,15 @@ h2 {
 
 @media only screen and (min-width: 375px) and (max-width: 667px){
 
-    
+    .carriVacio {
+        text-align: center;
+        height: 500px;
+    } 
+
+
 .contenedorOri {
     
-    height: 650px;
+    height: 600px;
 
 }
 .titulo {
@@ -73,7 +78,7 @@ h2 {
 }
 .imagen {
     width: auto;
-    height: 250px;
+    height: 200px;
     border-style: inset;
 }
 
@@ -99,5 +104,10 @@ h2 {
         width: auto;
         height: 200px;
         border-style: inset;
+    }
+
+    .carriVacio {
+
+        height: 400px;
     }
 }

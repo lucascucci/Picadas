@@ -14,7 +14,6 @@ const CarrMap = ({ sacarProductos, eliminarIndividual, vaciarCarrito, precioTota
                             <p className='detalle'>{data.detalle}</p>
                             <img className='imagen' src={data.imagen} alt="trago" />
                             <br></br>
-
                             <span className="value">Valor $ :{data.precio}</span>
                             <br></br>
                             <h3>Cantidad: {data.cantidad}</h3>
@@ -34,7 +33,6 @@ const CarrMap = ({ sacarProductos, eliminarIndividual, vaciarCarrito, precioTota
                         output
                     </span>
                 </div>
-
             </div>
         </div>
     )
