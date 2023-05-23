@@ -13,7 +13,8 @@ const botonAumento = () => {
 const botonDecremento = () => {
     contador > 0 ? setContador (contador -1):setContador(0) 
 }
-const agreProdu = () => {onAdd(contador)}
+const agreProdu = () => {onAdd(contador)
+alert("El producto se agrego al carrito")}
 
     return (
         <>
